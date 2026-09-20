@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1450" width="100%" height="100%" style="background-color: #f8fafc; font-family: 'Inter', system-ui, sans-serif;"> <!-- STREAMING_CHUNK:Defining SVG styles and markers... --> <defs> <!-- Arrowheads --> <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"> <path d="M 0 0 L 10 5 L 0 10 z" fill="#10b981" /> </marker> <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"> <path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6" /> </marker> <marker id="arrow-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"> <path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b" /> </marker>
+
+<!-- Shadows --> <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"> <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.05" /> </filter> <filter id="shadow-sm" x="-10%" y="-10%" width="120%" height="120%"> <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.05" /> </filter>
+
+<!-- Gradients --> <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="100%"> <stop offset="0%" stop-color="#eff6ff" /> <stop offset="100%" stop-color="#dbeafe" /> </linearGradient> </defs>
+
+<!-- Title & Legend --> <!-- STREAMING_CHUNK:Rendering Title and Legend... --> <text x="960" y="50" text-anchor="middle" font-size="32" font-weight="800" fill="#0f172a">AgriQ: Deep Agricultural Supply Chain Process Map</text> <text x="960" y="80" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">Complete Seed-to-Table Workflow: Physical, Digital AI, and Financial Logic</text>
+
+<rect x="1550" y="20" width="340" height="90" rx="8" fill="#ffffff" stroke="#e2e8f0" filter="url(#shadow-sm)"/> <text x="1565" y="45" font-size="14" font-weight="700" fill="#334155">Legend:</text> <line x1="1565" y1="60" x2="1605" y2="60" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/> <text x="1615" y="65" font-size="13" fill="#475569">Physical Product Flow</text>
+
+<line x1="1565" y1="85" x2="1605" y2="85" stroke="#3b82f6" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrow-blue)"/> <text x="1615" y="90" font-size="13" fill="#475569">Digital Info / AI Logic Flow</text>
+
+<line x1="1760" y1="60" x2="1800" y2="60" stroke="#f59e0b" stroke-width="3" stroke-dasharray="2,2" marker-end="url(#arrow-orange)"/> <text x="1810" y="65" font-size="13" fill="#475569">Financial / Credit Flow</text>
+
+<!-- ========================================== --> <!-- PHASE 1: PRE-SOWING, ADVISORY & INPUTS --> <!-- ========================================== --> <!-- STREAMING_CHUNK:Drawing Phase 1 (Pre-Sowing & Inputs)... --> <g transform="translate(30, 120)"> <rect width="1860" height="240" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/> <rect width="1860" height="40" rx="12" fill="#f1f5f9" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);"/> <text x="20" y="26" font-size="18" font-weight="700" fill="#334155">Phase 1: Pre-Harvest, Advisory, Input Facility & Agri-Credit</text>
+
+<!-- Sub-Section: Planning & Advisory --> <rect x="20" y="60" width="140" height="60" rx="30" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/> <text x="90" y="90" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Farmer / FPO</text> <text x="90" y="105" text-anchor="middle" font-size="11" fill="#64748b">(Planner/Seeker)</text>
+
+<!-- Advisory Flow --> <line x1="160" y1="80" x2="220" y2="80" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <rect x="230" y="60" width="160" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/> <text x="310" y="85" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Advisory Request</text> <text x="310" y="100" text-anchor="middle" font-size="11" fill="#64748b">(Crop health, pests)</text>
+
+<line x1="390" y1="80" x2="440" y2="80" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <rect x="450" y="50" width="180" height="70" rx="20" fill="url(#ai-grad)" stroke="#60a5fa" stroke-width="2"/> <text x="540" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">AgriQ Advisory AI</text> <text x="540" y="90" text-anchor="middle" font-size="11" fill="#1e40af">Diagnostic Engine</text> <text x="540" y="105" text-anchor="middle" font-size="11" fill="#1e40af">(Spray/Nutrient Plan)</text>
+
+<path d="M 540 120 L 540 150 L 90 150 L 90 120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <rect x="250" y="140" width="120" height="20" fill="#ffffff"/> <text x="310" y="153" text-anchor="middle" font-size="11" font-weight="600" fill="#2563eb">Diagnostic Return</text>
+
+<!-- Planning to Input Flow --> <path d="M 160 100 L 220 120 L 220 200 L 250 200" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<!-- Input Group Buy Flow --> <rect x="260" y="180" width="170" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/> <text x="345" y="200" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Input Request</text> <text x="345" y="215" text-anchor="middle" font-size="11" fill="#64748b">(Seeds, Fertilizer)</text>
+
+<line x1="430" y1="205" x2="480" y2="205" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <rect x="490" y="175" width="200" height="60" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="2"/> <text x="590" y="200" text-anchor="middle" font-size="14" font-weight="700" fill="#047857">FPO Consolidation</text> <text x="590" y="215" text-anchor="middle" font-size="12" fill="#059669">Group-Buying Optimization</text>
+
+<line x1="690" y1="205" x2="750" y2="205" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/> <text x="720" y="195" text-anchor="middle" font-size="11" font-weight="600" fill="#047857">Order</text>
+
+<rect x="760" y="180" width="140" height="50" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/> <text x="830" y="210" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Input Provider</text>
+
+<!-- Credit Flow --> <line x1="830" y1="180" x2="830" y2="120" stroke="#f59e0b" stroke-width="2" stroke-dasharray="2,2"/> <line x1="830" y1="120" x2="890" y2="120" stroke="#f59e0b" stroke-width="2" stroke-dasharray="2,2" marker-end="url(#arrow-orange)"/> <text x="860" y="110" text-anchor="middle" font-size="11" font-weight="600" fill="#d97706">Invoice</text>
+
+<rect x="900" y="95" width="160" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/> <text x="980" y="115" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Loan Request</text> <text x="980" y="130" text-anchor="middle" font-size="11" fill="#64748b">(Pre-harvest finance)</text>
+
+<line x1="1060" y1="120" x2="1110" y2="120" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="1120" y="85" width="220" height="70" rx="20" fill="url(#ai-grad)" stroke="#60a5fa" stroke-width="2"/> <text x="1230" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">AgriQ Credit Engine</text> <text x="1230" y="125" text-anchor="middle" font-size="11" fill="#1e40af">Underwriting & Appreval</text> <text x="1230" y="140" text-anchor="middle" font-size="11" fill="#1e40af">(Validates Harvest History/Trust)</text>
+
+<line x1="1340" y1="120" x2="1400" y2="120" stroke="#f59e0b" stroke-width="3" stroke-dasharray="2,2" marker-end="url(#arrow-orange)"/> <rect x="1410" y="95" width="150" height="50" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/> <text x="1485" y="115" text-anchor="middle" font-size="13" font-weight="700" fill="#b45309">Loan Disbursement</text> <text x="1485" y="130" text-anchor="middle" font-size="11" fill="#d97706">(To Farmer/Provider)</text>
+
+</g>
+
+<!-- ========================================== --> <!-- PHASE 2: HARVEST & DIGITAL MARKETPLACE --> <!-- ========================================== --> <!-- STREAMING_CHUNK:Drawing Phase 2 (Marketplace, RFQ, AI Matching)... --> <g transform="translate(30, 390)"> <rect width="1860" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/> <rect width="1860" height="40" rx="12" fill="#f1f5f9" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);"/> <text x="20" y="26" font-size="18" font-weight="700" fill="#334155">Phase 2: Harvest, Intake & The AgriQ Digital Marketplace (The Process Core)</text>
+
+<!-- Physical Harvest Line (Top) --> <rect x="20" y="60" width="140" height="40" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/> <text x="90" y="85" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Crop Harvest</text>
+
+<line x1="160" y1="80" x2="210" y2="80" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/>
+
+<rect x="220" y="60" width="160" height="40" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1"/> <text x="300" y="78" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">Field-Gate Cleaning</text> <text x="300" y="92" text-anchor="middle" font-size="11" fill="#059669">& Sorting</text>
+
+<line x1="380" y1="80" x2="430" y2="80" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/>
+
+<polygon points="480,50 530,80 480,110 430,80" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/> <text x="480" y="75" text-anchor="middle" font-size="11" font-weight="600" fill="#334155">Quality</text> <text x="480" y="90" text-anchor="middle" font-size="11" font-weight="600" fill="#334155">Check</text>
+
+<path d="M 480 110 L 480 130" fill="none" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/> <text x="490" y="125" font-size="11" fill="#ef4444" font-weight="600">Reject</text>
+
+<line x1="530" y1="80" x2="570" y2="80" stroke="#10b981" stroke-width="3" marker-end="url(#arrow-green)"/> <rect x="580" y="60" width="140" height="40" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="2"/> <text x="650" y="78" text-anchor="middle" font-size="13" font-weight="700" fill="#047857">FPO Hub Intake</text> <text x="650" y="92" text-anchor="middle" font-size="11" fill="#059669">(Official Assaying)</text>
+
+<!-- Digital Marketplace Flow (Seller) --> <rect x="20" y="160" width="140" height="50" rx="25" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/> <text x="90" y="185" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Farmer / FPO</text> <text x="90" y="200" text-anchor="middle" font-size="11" fill="#64748b">(Seller)</text>
+
+<line x1="160" y1="185" x2="210" y2="185" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="220" y="150" width="160" height="70" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/> <text x="300" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">Seller Onboarding</text> <text x="300" y="185" text-anchor="middle" font-size="10" fill="#64748b">- CIN / MCA Auth Check</text> <text x="300" y="200" text-anchor="middle" font-size="10" fill="#64748b">- Initial Trust Score</text>
+
+<line x1="380" y1="185" x2="420" y2="185" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="430" y="165" width="140" height="40" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/> <text x="500" y="185" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">Create Listing</text> <text x="500" y="198" text-anchor="middle" font-size="10" fill="#2563eb">(Supply Declaration)</text>
+
+<line x1="570" y1="185" x2="620" y2="185" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<!-- AI Soft Warning logic --> <rect x="630" y="145" width="180" height="80" rx="20" fill="url(#ai-grad)" stroke="#60a5fa" stroke-width="2"/> <text x="720" y="165" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">AgriQ AI Pricing Rule</text> <text x="720" y="180" text-anchor="middle" font-size="10" fill="#1e40af">Checks Agmarknet APIs.</text> <text x="720" y="195" text-anchor="middle" font-size="10" fill="#1e40af">Issues Soft Warning if</text> <text x="720" y="210" text-anchor="middle" font-size="10" fill="#1e40af">Seller underprices severely.</text>
+
+<line x1="810" y1="185" x2="860" y2="185" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <rect x="870" y="165" width="120" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/> <text x="930" y="190" text-anchor="middle" font-size="13" font-weight="700" fill="#334155">Listing Active</text>
+
+<!-- Digital Marketplace Flow (Buyer / RFQ) --> <rect x="20" y="260" width="140" height="50" rx="25" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/> <text x="90" y="285" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Institutional Buyer</text> <text x="90" y="300" text-anchor="middle" font-size="11" fill="#64748b">(B2B / Bulk)</text>
+
+<line x1="160" y1="285" x2="210" y2="285" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="220" y="250" width="160" height="70" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/> <text x="300" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">Buyer Classification</text> <text x="300" y="285" text-anchor="middle" font-size="10" fill="#64748b">Volumes determine Retail</text> <text x="300" y="300" text-anchor="middle" font-size="10" fill="#64748b">vs. Bulk constraints.</text>
+
+<line x1="380" y1="285" x2="420" y2="285" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="430" y="255" width="190" height="60" rx="8" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/> <text x="525" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">Post RFQ / Requirement</text> <text x="525" y="290" text-anchor="middle" font-size="11" fill="#7c3aed">Non-binding broadcast</text> <text x="525" y="305" text-anchor="middle" font-size="11" fill="#7c3aed">with Target Volume & Date</text>
+
+<!-- The Core Matching Engine --> <path d="M 620 285 L 930 285 L 930 215" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/> <text x="750" y="275" text-anchor="middle" font-size="11" font-weight="600" fill="#6d28d9">AgriQ Broadcaster</text>
+
+<rect x="990" y="150" width="450" height="150" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="8,4"/> <text x="1215" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">Double-Sided Requirement & Offer Resolution</text>
+
+<!-- Inside Matching Box --> <rect x="1010" y="190" width="120" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/> <text x="1070" y="215" text-anchor="middle" font-size="12" font-weight="600" fill="#334155">Farmers Receive RFQ</text>
+
+<line x1="1130" y1="210" x2="1170" y2="210" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="1180" y="190" width="120" height="50" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/> <text x="1240" y="210" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8">Submit Offers</text> <text x="1240" y="225" text-anchor="middle" font-size="10" fill="#2563eb">(Fractional Fulfillment)</text>
+
+<line x1="1300" y1="210" x2="1340" y2="210" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<rect x="1350" y="190" width="70" height="40" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="2"/> <text x="1385" y="215" text-anchor="middle" font-size="12" font-weight="700" fill="#047857">Accept</text> <text x="1385" y="245" text-anchor="middle" font-size="10" fill="#64748b">By Buyer</text>
+
+<!-- Convert to Order --> <line x1="1440" y1="225" x2="1490" y2="225" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrow-blue)"/> <rect x="1500" y="200" width="130" height="50" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="3"/> <text x="1565" y="220" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a">Convert to Order</text> <text x="1565" y="235" text-anchor="middle" font-size="11" fill="#334155">(Links Multiple Offers)</text>
+
+<!-- Advanced Forecasting AI Loop --> <rect x="1660" y="160" width="170" height="130" rx="20" fill="url(#ai-grad)" stroke="#60a5fa" stroke-width="2"/> <text x="1745" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">AgriQ Forecasting AI</text> <text x="1745" y="210" text-anchor="middle" font-size="11" fill="#1e40af">Demand Forecasting</text> <text x="1745" y="225" text-anchor="middle" font-size="11" fill="#1e40af">(Historical Crop/Region)</text> <text x="1745" y="250" text-anchor="middle" font-size="11" font-weight="600" fill="#1e40af">WAPE Model Backtest</text> <text x="1745" y="265" text-anchor="middle" font-size="10" fill="#1e40af">(Auto-Retrain Loop)</text>
+
+<path d="M 1660 225 L 1630 225 L 1630 285 L 720 285 L 720 225" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4"/>
+
+</g>
+
+<!-- ========================================== --> <!-- PHASE 3: LOGISTICS, ROUTING & AGGREGATION --> <!-- ========================================== --> <!-- STREAMING_CHUNK:Drawing Phase 3 (Logistics, Routing, OR-Tools)... --> <g transform="translate(30, 750)"> <rect width="1860" height="240" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/> <rect width="1860" height="40" rx="12" fill="#f1f5f9" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);"/> <text x="20" y="26" font-size="18" font-weight="700" fill="#334155">Phase 3: Logistics, Routing AI, & Physical Aggregation</text>
+
+<!-- Connect Order to Logistics --> <path d="M 1565 -110 L 1565 -70 L 60 -70 L 60 50" fill="none" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrow-blue)"/> <text x="800" y="-80" font-size="14" font-weight="600" fill="#1d4ed8">Order Confirmed & Stock Reserved (Trigger Logistics Engine)</text>
+
+<!-- AI Routing Block --> <rect x="20" y="60" width="550" height="150" rx="20" fill="url(#ai-grad)" stroke="#60a5fa" stroke-width="2"/> <text x="295" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4ed8">AgriQ Perishability-Aware Logistics Engine (OR-Tools)</text>
+
+<!-- Step 1: Freshness Risk --> <rect x="40" y="100" width="160" height="90" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/> <text x="120" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">1. Freshness Risk Score</text> <text x="120" y="145" text-anchor="middle" font-size="10" fill="#3b82f6">Simulates Crop Type</text> <text x="120" y="160" text-anchor="middle" font-size="10" fill="#3b82f6">+ Harvest Time</text> <text x="120" y="175" text-anchor="middle" font-size="10" fill="#3b82f6">+ Temp / Vulnerability</text>
+
+<line x1="200" y1="145" x2="230" y2="145" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<!-- Step 2: Route Solver --> <rect x="240" y="100" width="140" height="90" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/> <text x="310" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">2. VRP Route Solver</text> <text x="310" y="145" text-anchor="middle" font-size="10" fill="#3b82f6">Solves Google OR-Tools</text> <text x="310" y="160" text-anchor="middle" font-size="10" fill="#3b82f6">Constraints: Freshness,</text> <text x="310" y="175" text-anchor="middle" font-size="10" fill="#3b82f6">Capacity, Time Windows</text>
+
+<line x1="380" y1="145" x2="410" y2="145" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-blue)"/>
+
+<!-- Step 3: Aggregation --> <rect x="420" y="100" width="130" height="90" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/> <text x="485" y="125" text-
